@@ -1,0 +1,5 @@
+# github.com/LucasBlackArken/GoCep v0.0.0-20240409203245-a5854c3c6438
+## explicit
+github.com/LucasBlackArken/GoCep/application
+github.com/LucasBlackArken/GoCep/domain
+github.com/LucasBlackArken/GoCep/infrastructure

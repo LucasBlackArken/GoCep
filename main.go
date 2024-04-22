@@ -11,10 +11,10 @@ func main() {
 	viaCEP := &infrastructure.ViaCEP{}
 	enderecoService := application.NovoEndereco(viaCEP)
 
-	cep := "01001000" // CEP de exemplo, você pode alterar para o CEP desejado
+	cep := "83708740" // CEP de exemplo, você pode alterar para o CEP desejado
 
 	endereco, erro := enderecoService.BuscaEndereco(cep)
-	if endereco != nil {
+	if erro != nil {
 		fmt.Println("Erro ao obter o endereço:", erro)
 		return
 	}
